@@ -1,0 +1,121 @@
+body{
+  margin: 0 auto;
+  background-color: lightgreen;
+  /* width: 80%; */
+  text-align: center;
+}
+
+main{
+  /* text-align: center; */
+  width: 90%;
+  display: flex;
+  padding-top: 100px;
+margin:0 auto;
+  background-color: lightsteelblue;
+  padding-bottom: 500px;
+  
+}
+
+header{
+  background-color: cadetblue;
+  height:50px;
+  width:100%;
+
+  position: fixed;
+  z-index: 1;
+}
+.logo{
+  float:left;
+  margin:13px 20px ;
+  padding: 0; 
+}
+.logo img{
+  width:200px;
+  height:24px;
+  vertical-align:top;
+}
+
+header .hitems{
+  height:100%;
+  /* max-width: 800px; */
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+.hitems .hul{
+  width: auto;
+  display: inline-block;
+  margin-right: 20px; 
+  text-align: center;
+  padding: 0;
+}
+
+.hitems li{
+  display: inline;
+  color:white;
+  margin:auto 10px;
+  list-style: none;
+
+  
+}
+ .mul{
+list-style: none; 
+}
+
+.left ul{
+  margin: auto;
+  display: inline-block;
+  padding: 0%;
+}
+
+.left li{
+  width: 160px;
+padding-bottom: 14px;
+
+border: solid lightslategray 1px;
+}
+
+
+
+
+footer{
+  height:30px;
+  background-color: skyblue;
+}
+
+.left{
+  
+  flex:2;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: mediumpurple;
+}
+.container .center{
+  flex:5;
+  position: relative;
+  text-align: center;
+}
+ .right{
+  flex:2;
+  background-color: mediumslateblue;
+}
+.center .bd2{
+  vertical-align:top;
+  text-align: center;
+  height: 300px;
+  width: auto;
+
+  
+}
+
+.center ,p{
+  position: absolute;
+  left:0;
+  top:0;
+  margin:0;
+  background-color:white;
+  color:red;
+}
